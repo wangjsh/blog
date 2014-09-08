@@ -1,0 +1,61 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #43a707; TEXT-DECORATION: none
+}
+
+td {
+	font-size: 12px;
+	color: #000;
+}
+
+UL {
+	LIST-STYLE-TYPE: none
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+.inputTextW110H22 {
+	background-color: #fafafa;
+	height: 22px;
+	width: 110px;
+	border: 1px solid #dddddd;
+}
+a.title:link {
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.title:hover {
+	font-size: 16px;
+	color: #009900;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.L12Gray:link {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+a.L12Gray:hover {
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+.F12Gray{
+	font-size: 12px;
+	color: #666666;
+}
+.content {
+	font-size: 12px;
+	line-height: 23px;
+	color: #000000;
+}
