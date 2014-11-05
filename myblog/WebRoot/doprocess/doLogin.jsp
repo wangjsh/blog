@@ -56,8 +56,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     session.setAttribute("scsLogin", u);//保存客户session对象
    
     //登陆成功
-      String msg=URLEncoder.encode("登陆成功","utf-8");
-	   response.sendRedirect(request.getContextPath()+"/error.jsp?msg="+msg);
+      String msg=URLEncoder.encode("ok","utf-8");
+	   response.sendRedirect(request.getContextPath()+"/index.jsp?msg="+msg);
     
      %>
   </body>

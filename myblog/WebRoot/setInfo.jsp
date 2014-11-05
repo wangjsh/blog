@@ -85,7 +85,8 @@ UserDetails tname=userdetaildaosetinfo.findUserDetailById(Integer.parseInt(uid))
               <tr>
                 <td width="1" bgcolor="#ddddcc">
 				</td>
-                <td width="498" height="250" align="center"><form id="form2" name="form2" method="post" action="doprocess/doSetInfo.jsp">
+                <td width="498" height="250" align="center">
+                <form id="form2" name="form2" method="post" action="doprocess/doSetInfo.jsp">
                   <table width="250" border="0" cellspacing="0" cellpadding="0">
                     <tr>
                       <td width="100" height="30" align="right">真实姓名：</td>
@@ -128,7 +129,7 @@ UserDetails tname=userdetaildaosetinfo.findUserDetailById(Integer.parseInt(uid))
                       </label></td>
                     </tr>
                   </table>
-                                </form>
+                  </form>
                 </td>
                 <td width="1" bgcolor="#ddddcc">
 				</td>

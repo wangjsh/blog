@@ -70,7 +70,8 @@ p#controls { margin:0; padding:0; position:relative; }
               <tr>
                 <td width="1" bgcolor="#ddddcc">
 				</td>
-                <td width="498" height="250" align="center"><form id="form2" name="form2" method="post" action="doprocess/domodify.jsp">
+                <td width="498" height="250" align="center">
+                <form id="form2" name="form2" method="post" action="doprocess/domodify.jsp">
                   <table width="250" border="0" cellspacing="0" cellpadding="0">
                     
                     
@@ -94,7 +95,7 @@ p#controls { margin:0; padding:0; position:relative; }
                       </label></td>
                     </tr>
                   </table>
-                                </form>
+              </form>
                 </td>
                 <td width="1" bgcolor="#ddddcc">
 				</td>

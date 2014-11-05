@@ -14,7 +14,8 @@
         <td height="30" bgcolor="#fafafa">&nbsp;用户登录</td>
       </tr>
       <tr>
-        <td height="80" bgcolor="#FFFFFF"><form id="form1" name="form1" method="post" action="doprocess/doLogin.jsp">
+        <td height="80" bgcolor="#FFFFFF">
+        <form id="form1" name="form1" method="post" action="doprocess/doLogin.jsp">
           <table width="190" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
               <td width="56" height="30" align="right">用户名：</td>

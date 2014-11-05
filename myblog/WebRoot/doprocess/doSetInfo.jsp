@@ -63,7 +63,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
    UserDetailDao userdetailupdate=new UserDetailDao();
    userdetailupdate.updateUserDetailById(ud);
    //添加成功，返回主页
-    String msg=URLEncoder.encode("详细信息添加成功","utf-8");
+    String msg=URLEncoder.encode("modify successfully","utf-8");
 	   response.sendRedirect(request.getContextPath()+"/error.jsp?msg="+msg);
     %>
   </body>
